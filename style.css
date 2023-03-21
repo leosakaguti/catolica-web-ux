@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+h1,h3 {
+    color:rgb(2, 61, 150);
+}
+
+hr {
+    border-color: rgb(2, 61, 150);
+    margin: 5px 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container,footer {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.description > p {
+    padding-bottom: 10px;
+}
+
+.box-title {
+    padding-bottom: 10px;
+}
+
+.contact > p {
+    padding-bottom: 6px;
+}
+
+.education > ul {
+    padding-left: 30px;
+    list-style: none;
+}
+
+.education-item {
+    padding-bottom: 4px;
+}
+
+.experience {
+    display:flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+.exp-item {
+    padding-bottom: 6px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills > h3 {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.skill-items {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px 80px;
+    padding: 20px 0;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-item > p:first-of-type {
+    font-weight: 600;
+}
+
+.skill-item > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.skill-item > a > i {
+    background: rgb(160, 185, 223);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 0 20px;
+}
+
+.social-medias > p {
+    font-weight: 600;
+}
+
+.social-items {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-items > a {
+    background: rgb(160, 185, 223);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+}
